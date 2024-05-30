@@ -1,0 +1,16 @@
+23:54:42:295  INFO 14552 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.23 on ybwwt with PID 14552 (E:\src\JAVALearn\C3\hmall\cart-service\target\classes started by 10520 in E:\src\JAVALearn\C3\hmall)
+23:54:42:297 DEBUG 14552 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:54:42:298  INFO 14552 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+23:54:43:157  INFO 14552 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec07e679-026d-3b4e-8915-eb332fc3c016
+23:54:43:509  INFO 14552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+23:54:43:521  INFO 14552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:54:43:521  INFO 14552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:54:43:737  INFO 14552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:54:43:738  INFO 14552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1402 ms
+23:54:43:883  INFO 14552 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+23:54:45:748  INFO 14552 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:54:46:290  INFO 14552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+23:54:46:707  INFO 14552 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:54:46:710  INFO 14552 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:54:46:729  INFO 14552 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:54:46:812  INFO 14552 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 5.389 seconds (JVM running for 6.684)

@@ -10,8 +10,8 @@
         <module name="item-service" />
         <module name="cart-service" />
         <module name="hm-service" />
-        <module name="hm-common" />
         <module name="hm-api" />
+        <module name="hm-common" />
       </profile>
     </annotationProcessing>
   </component>
