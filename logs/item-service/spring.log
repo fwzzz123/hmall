@@ -759,3 +759,32 @@ Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,
 13:34:06:301  INFO 2708 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1717133078707_192.168.244.1_2187
 13:34:06:302  INFO 2708 --- [nacos-grpc-client-executor-146] c.a.n.c.remote.client.grpc.GrpcClient    : [1717133078707_192.168.244.1_2187]Ignore complete event,isRunning:false,isAbandon=false
 13:34:06:328  INFO 2708 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@62e67ec8[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 147]
+15:48:52:613  INFO 19836 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.23 on ybwwt with PID 19836 (E:\src\JAVALearn\C3\hmall\user-service\target\classes started by 10520 in E:\src\JAVALearn\C3\hmall)
+15:48:52:633 DEBUG 19836 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:48:52:633  INFO 19836 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+15:48:53:620  INFO 19836 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=49b0fbdc-ea47-3d94-874f-e370c90f9bc9
+15:48:54:090  INFO 19836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+15:48:54:098  INFO 19836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:48:54:099  INFO 19836 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:48:54:343  INFO 19836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:48:54:343  INFO 19836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1674 ms
+15:48:54:386  WARN 19836 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [E:\src\JAVALearn\C3\hmall\user-service\target\classes\com\hmall\user\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hmall.user.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+15:48:54:388  INFO 19836 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+15:48:54:427  INFO 19836 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:48:54:438 ERROR 19836 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hmall.user.controller.UserController required a bean of type 'com.hmall.user.service.IUserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hmall.user.service.IUserService' in your configuration.
+
