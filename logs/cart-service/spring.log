@@ -33,3 +33,19 @@
 13:25:05:473  INFO 15768 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 13:25:05:493  INFO 15768 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 13:25:05:574  INFO 15768 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 5.573 seconds (JVM running for 6.818)
+22:50:06:935  INFO 9460 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.23 on ybwwt with PID 9460 (E:\src\JAVALearn\C3\hmall\cart-service\target\classes started by 10520 in E:\src\JAVALearn\C3\hmall)
+22:50:06:952 DEBUG 9460 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:50:06:952  INFO 9460 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+22:50:08:192  INFO 9460 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aaa3a5f9-7068-35a8-aa9d-419a69204f54
+22:50:08:538  INFO 9460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+22:50:08:544  INFO 9460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:50:08:545  INFO 9460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:50:08:642  INFO 9460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:50:08:642  INFO 9460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1656 ms
+22:50:08:823  INFO 9460 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+22:50:11:458  INFO 9460 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:50:12:233  INFO 9460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+22:50:12:867  INFO 9460 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+22:50:12:871  INFO 9460 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+22:50:12:903  INFO 9460 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+22:50:13:007  INFO 9460 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 7.019 seconds (JVM running for 7.873)
