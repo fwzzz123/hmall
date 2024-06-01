@@ -9,7 +9,7 @@ import com.hmall.api.dto.OrderDetailDTO;
 import com.hmall.common.exception.BadRequestException;
 import com.hmall.common.utils.UserContext;
 import com.hmall.trade.domain.dto.OrderFormDTO;
-import com.hmall.trade.domain.po.Order;
+import com.hmall.api.po.Order;
 import com.hmall.trade.domain.po.OrderDetail;
 import com.hmall.trade.mapper.OrderMapper;
 import com.hmall.trade.service.IOrderDetailService;

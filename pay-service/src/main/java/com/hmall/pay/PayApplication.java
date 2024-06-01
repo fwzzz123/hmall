@@ -8,9 +8,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @MapperScan("com.hmall.pay.mapper")
 @SpringBootApplication
-@EnableFeignClients()
+@EnableFeignClients(basePackages = "com.hmall.api.client")
 public class PayApplication {
     public static void main(String[] args) {
-        SpringApplication.run(UserApplication.class, args);
+        SpringApplication.run(PayApplication.class, args);
     }
 }
