@@ -1,51 +1,16 @@
-13:16:20:008  INFO 3184 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.23 on ybwwt with PID 3184 (E:\src\JAVALearn\C3\hmall\cart-service\target\classes started by 10520 in E:\src\JAVALearn\C3\hmall)
-13:16:20:012 DEBUG 3184 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-13:16:20:012  INFO 3184 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
-13:16:22:439  INFO 3184 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec07e679-026d-3b4e-8915-eb332fc3c016
-13:16:22:969  INFO 3184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-13:16:22:978  INFO 3184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-13:16:22:979  INFO 3184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-13:16:23:401  INFO 3184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-13:16:23:401  INFO 3184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3112 ms
-13:16:23:601  INFO 3184 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
-13:16:26:060  INFO 3184 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-13:16:26:671  INFO 3184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-13:16:27:083  INFO 3184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-13:16:27:085  INFO 3184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-13:16:27:109  INFO 3184 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-13:16:27:221  INFO 3184 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 9.32 seconds (JVM running for 13.04)
-13:16:44:453  INFO 3184 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-13:16:44:453  INFO 3184 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-13:16:44:455  INFO 3184 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-13:25:01:125  INFO 15768 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.23 on ybwwt with PID 15768 (E:\src\JAVALearn\C3\hmall\cart-service\target\classes started by 10520 in E:\src\JAVALearn\C3\hmall)
-13:25:01:127 DEBUG 15768 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-13:25:01:127  INFO 15768 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
-13:25:02:082  INFO 15768 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec07e679-026d-3b4e-8915-eb332fc3c016
-13:25:02:356  INFO 15768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-13:25:02:363  INFO 15768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-13:25:02:363  INFO 15768 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-13:25:02:470  INFO 15768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-13:25:02:470  INFO 15768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1297 ms
-13:25:02:645  INFO 15768 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
-13:25:04:507  INFO 15768 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-13:25:05:042  INFO 15768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-13:25:05:471  INFO 15768 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-13:25:05:473  INFO 15768 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-13:25:05:493  INFO 15768 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-13:25:05:574  INFO 15768 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 5.573 seconds (JVM running for 6.818)
-22:50:06:935  INFO 9460 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.23 on ybwwt with PID 9460 (E:\src\JAVALearn\C3\hmall\cart-service\target\classes started by 10520 in E:\src\JAVALearn\C3\hmall)
-22:50:06:952 DEBUG 9460 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-22:50:06:952  INFO 9460 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
-22:50:08:192  INFO 9460 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aaa3a5f9-7068-35a8-aa9d-419a69204f54
-22:50:08:538  INFO 9460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-22:50:08:544  INFO 9460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-22:50:08:545  INFO 9460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-22:50:08:642  INFO 9460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-22:50:08:642  INFO 9460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1656 ms
-22:50:08:823  INFO 9460 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
-22:50:11:458  INFO 9460 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-22:50:12:233  INFO 9460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-22:50:12:867  INFO 9460 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-22:50:12:871  INFO 9460 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-22:50:12:903  INFO 9460 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-22:50:13:007  INFO 9460 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 7.019 seconds (JVM running for 7.873)
+22:55:30:090  INFO 17236 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.23 on ybwwt with PID 17236 (E:\src\JAVALearn\C3\hmall\cart-service\target\classes started by 10520 in E:\src\JAVALearn\C3\hmall)
+22:55:30:094 DEBUG 17236 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:55:30:095  INFO 17236 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+22:55:30:924  INFO 17236 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0ebfb2c8-bd49-381c-b9ca-75e39ff2f54a
+22:55:31:262  INFO 17236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+22:55:31:270  INFO 17236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:55:31:270  INFO 17236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:55:31:380  INFO 17236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:55:31:381  INFO 17236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1251 ms
+22:55:31:557  INFO 17236 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+22:55:33:913  INFO 17236 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:55:34:495  INFO 17236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+22:55:34:917  INFO 17236 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+22:55:34:919  INFO 17236 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+22:55:34:940  INFO 17236 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+22:55:35:029  INFO 17236 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 6.355 seconds (JVM running for 7.337)
